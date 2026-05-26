@@ -18,7 +18,7 @@ A sleek and modern dice battle game built using pure HTML, CSS, and JavaScript.
 
 ## 🚀 Live Demo
 
-https://yourusername.github.io/dice-duel/
+https://zippynx.github.io/dice-duel/
 
 ## 📂 Project Structure
 
