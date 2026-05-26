@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Duel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-grid" aria-hidden="true"></div>
+
+    <main class="container">
+      <header class="header">
+        <span class="eyebrow">Dice Duel</span>
+        <h1 class="title" id="result">Roll the Dice</h1>
+        <p class="subtitle">Click below to decide your fate</p>
+      </header>
+
+      <section class="arena" aria-label="Game arena">
+        <div class="player-card" id="card1">
+          <div class="player-info">
+            <span class="player-num">01</span>
+            <span class="player-name">Player One</span>
+          </div>
+          <div class="dice-wrap">
+            <div class="dice" id="dice1" role="img" aria-label="Player one's dice">
+              <div class="face" id="face1"></div>
+            </div>
+          </div>
+          <div class="score" id="score1" aria-live="polite">—</div>
+        </div>
+
+        <div class="vs-divider" aria-hidden="true">
+          <div class="vs-line"></div>
+          <span class="vs-label">VS</span>
+          <div class="vs-line"></div>
+        </div>
+
+        <div class="player-card" id="card2">
+          <div class="player-info">
+            <span class="player-num">02</span>
+            <span class="player-name">Player Two</span>
+          </div>
+          <div class="dice-wrap">
+            <div class="dice" id="dice2" role="img" aria-label="Player two's dice">
+              <div class="face" id="face2"></div>
+            </div>
+          </div>
+          <div class="score" id="score2" aria-live="polite">—</div>
+        </div>
+      </section>
+
+      <div class="actions">
+        <button class="btn-roll" id="rollBtn">Roll</button>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>May fortune favor the bold</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
