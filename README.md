@@ -50,4 +50,4 @@ This project focuses on:
 
 ## Author
 
-Designed and developed by Zippynx 
+Designed and developed by Zippynx   
